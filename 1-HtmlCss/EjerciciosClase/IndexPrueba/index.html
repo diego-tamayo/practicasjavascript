@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Primera Web</title>
+  <!-- <link rel="shortcut icon" href="http://cepalavictoria.centros.educa.jcyl.es/sitio/skins/jcyl/img/comunes/favicon.ico" type="image/x-icon"> -->
+  <link rel="shortcut icon" href="img/beach_access_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" type="image/x-icon">
+  <base href="index.html">
+  <!-- <style>
+    body {
+      font-size: 2em;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-weight: bold;
+    }
+
+    h1 {
+      background-color: aqua;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 5em;
+      color: #11f455;
+    }
+
+    p {
+      color: aqua;
+      background-color: blue;
+    }
+
+    /* ul {
+      list-style-type: square;
+    } */
+
+    li {
+      background-color: yellow;
+    }
+
+    /* los selectores de tipo identificador -> id llevan # antes del nombre */
+    #uno {
+      background-color: green;
+    }
+
+    #tres {
+      background-color: salmon;
+    }
+
+    /* los selectores de tipo clase -> id llevan . antes del nombre */
+    .uno {
+      color: aliceblue;
+    }
+
+    .dos {
+      background-color: blueviolet;
+    }
+    th{
+      background-color: aquamarine;
+    }
+    .amarillo{
+      background-color: yellow;
+    }
+    #rojo{
+      background-color: rgb(200, 61, 61);
+    }
+  </style> -->
+  <link rel="stylesheet" href="miEstilo.css">
+</head>
+
+<body>
+  <header>
+    <hgroup>
+      <h1>Web de Ranas</h1>
+      <h2>Esta es mi primera web</h2>
+    </hgroup>
+
+  </header>
+
+  <main>
+    <nav>
+      <ul>
+        <li class="dos" id="tres"><a href="ranaRojas.html">Ranas Rojas</a> </li>
+        <li><a href="ranasVerdes.html">Ranas Verdes</a></li>
+      </ul>
+      <ol type="1" start="3">
+        <li class="dos" id="tres"><a href="ranaRojas.html">Ranas Rojas</a> </li>
+        <li><a href="ranasVerdes.html">Ranas Verdes</a></li>
+        <li class="dos" id="tres"><a href="ranaRojas.html">Ranas Rojas</a>
+
+        </li>
+        <li><a href="ranasVerdes.html">Ranas Verdes</a></li>
+        <li class="dos" id="tres"><a href="ranaRojas.html">Ranas Rojas</a> </li>
+        <li><a href="ranasVerdes.html">Ranas Verdes</a></li>
+      </ol>
+
+    </nav>
+    <section contenteditable="true">
+      
+      <div class="cuadrado" ></div>
+      <p>
+        Aqui escribir <br><br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Vitae, nihil dolores error quia voluptate, veritatis
+        facere cupiditate nesciunt nulla vero corporis in,
+        consequatur molestias odio quibusdam? Illum rerum
+        minus nulla.
+      </p>
+      <p>
+      <pre class="dos" id="tres">
+        Lorem ipsum dolor sit amet 
+        consectetur adipisicing elit.
+        Vitae, nihil dolores error 
+        quia voluptate, veritatis
+        facere cupiditate nesciunt 
+        nulla vero corporis in,     
+        consequatur molestias odio
+        quibusdam? Illum rerum
+        minus nulla.</pre>
+      </p>
+      <hr>
+      <p id="uno" class="uno">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Vitae, nihil dolores error quia voluptate, veritatis
+        facere cupiditate nesciunt nulla vero corporis in,
+        consequatur molestias odio quibusdam? Illum rerum
+        minus nulla.<br>
+
+        <img src="img/rojas/ranaRojas2.jfif" alt="" srcset="">
+      </p>
+      <pre>Hola, BIENVENIDOS
+        esta ES MI PÁGINA WEB
+        y esto un texto preformateado</pre>
+    </section>
+    <aside>
+      Patata
+    </aside>
+    <table>
+      <tr>
+        <th>horas</th>
+        <th>lunes</th>
+        <th>martes</th>
+        <th>miercoles</th>
+        <th>jueves</th>
+        <th>viernes</th>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td rowspan="3">programar</td>
+        <td rowspan="3">programar</td>
+        <td>programar</td>
+        <td>sacr al perro</td>
+        <td>programar</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <!-- <td>programar</td> -->
+        <!-- <td>programar</td> -->
+        <td>programar</td>
+        <td>desayunar</td>
+        <td>programar</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <!-- <td>programar</td> -->
+        <!-- <td>programar</td> -->
+        <td>programar</td>
+        <td>estudiar</td>
+        <td>programar</td>
+      </tr>
+      <tr>
+        <td>11.00</td>
+        <td colspan="5">RECREO</td>
+        <!-- <td></td>
+        <td></td>
+        <td></td>
+        <td></td> -->
+      </tr>
+      <tr> <td>11.30</td>
+        <td>programar</td>
+        <td>programar</td>
+        <td>programar</td>
+        <td>estudiar mas</td>
+        <td>programar</td>
+      </tr>
+      <tr>
+        <td>12.00</td>
+        <td>programar</td>
+        <td>programar</td>
+        <td>programar</td>
+        <td>hacer la comida</td>
+        <td>programar</td>
+        </tr>
+        <tr>
+          <td colspan="6">Pie de la tabla</td>
+        </tr>
+    </table>
+
+  </main>
+  <footer>
+    <figure>
+      © 2014. Todos los derechos reservados
+
+    </figure>
+  </footer>
+</body>
+
+</html>

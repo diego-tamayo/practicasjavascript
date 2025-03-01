@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
+}
+
+.grid-contenedor{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(2,100px);
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.cajaA{
+    grid-column: 1/span 2;
+    grid-row: 1;
+}
+
+.cajaB{
+    grid-column: 3;
+    grid-row: 1 / span 2;
+}
+
+.cajaC{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.cajaD{
+    grid-column: 2;
+    grid-row: 2;
+    height: 400px;
+}
+
+.cajaE{
+    grid-column: 4;
+    grid-row: 1/ span 2;
+    id-row: 2;
+    height: 500px;
+}

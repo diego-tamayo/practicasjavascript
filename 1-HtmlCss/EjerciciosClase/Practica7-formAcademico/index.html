@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Academico</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <main class="contenedor">
+
+        <h1>Recogida de datos</h1>
+
+        <form action="">
+
+            <fieldset>
+                <legend>Datos personales</legend>
+
+                <label for="progreso1">Progreso del formulario:
+                <progress min="0" max="100" value="25" id="progreso1"></progress>    
+                </label>
+                <br>
+                <label for="nombreApellido">
+                    Nombre y apellidos:
+                    <input type="text" name="nombreApellido" id="nombreApellido" placeholder="Nombre y apellido">
+                </label>
+                <br>
+                <label for="fechaNacimiento">
+                    Fecha de nacimiento:
+                    <input type="date" name="fechaNacimiento" id="fechaNacimiento">
+                </label>
+                <br>
+                <label for="telefono">
+                    Teléfono:
+                    <input type="tel" name="telefono" id="telefono" placeholder="Teléfono..">
+                </label>
+                <br>
+                <label for="fotografiaReciente">
+                    Fotografia reciente:
+                    <input type="file" name="fotografiaReciente" id="fotografiaReciente">
+                </label>
+                <br>
+                <label for="correo">
+                    Correo electrónico:
+                    <input type="email" name="correo" id="correo" placeholder="Correo electrónico..">
+                </label>
+                <br>
+                <label for="contraseña">
+                    Contraseña:
+                    <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña..">
+                </label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Méritos académicos</legend>
+
+                  <label for="progreso2">Progreso del formulario:
+                <progress min="0" max="100" value="50" id="progreso2"></progress>    
+                </label>
+
+                <p>Señale la titulación más alta que posea</p>
+                <label for="checkEnseñanza">
+                    Enseñanza obligatoria/sin estudios
+                    <input type="radio" name="checkEnseñanza" id="checkEnseñanza">
+                </label>
+                <br>
+                <label for="checkBachillerato">
+                    Bachillerato/CCFF de grado medio de FP
+                    <input type="radio" name="checkBachillerato" id="checkBachillerato">
+                </label>
+                <br>
+                <label for="checkUniversitario">
+                    Estudios universitarios de primer ciclo/CC.FF. de grado superior de FP
+                    <input type="radio" name="checkUniversitario" id="checkBachillerato">
+                </label>
+                <br>
+                <label for="checkLicenciatura">
+                    Grado/Licenciatura universitaria
+                    <input type="radio" name="checkLicenciatura" id="checkLicenciatura">
+                </label>
+                <br>
+                <label for="postgrado">
+                    Estudios de postgrado/máster
+                    <input type="radio" name="postgrado" id="postgrado">
+                </label>
+                <br>
+                <label for="doctorado">
+                    doctorado
+                    <input type="radio" name="doctorado" id="doctorado">
+                </label>
+                <br>
+                <label for="indicacionTitulo">
+                    Indique los titulos académicos que desee aportar en su ficha personal:
+                    <textarea name="indicacionTitulo" id="indicacionTitulo"></textarea>
+                </label>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Sectores en los que desea trabajar</legend>
+
+                <label for="progreso3">Progreso del formulario:
+                    <progress min="0" max="100" value="75" id="progreso3"></progress>    
+                    </label>
+                    <br>
+                <label for="educacion">
+                    Educación
+                    <input type="checkbox" name="educacion" id="educacion">
+                </label>
+                <br>
+                <label for="tecnologia">
+                    Tecnologia
+                    <input type="checkbox" name="tecnologia" id="tecnologia">
+                </label>
+                <br>
+                <label for="construccion">
+                    Construcción
+                    <input type="checkbox" name="construccion" id="construccion">
+                </label>
+                <br>
+                <label for="hotel">
+                    Hoteleria
+                    <input type="checkbox" name="hotel" id="hotel">
+                </label>
+                <br>
+                <label for="industria">
+                    Industría
+                    <input type="checkbox" name="industria" id="industria">
+                </label>
+                <br>
+                <label for="servicioHogar">
+                    Servicio al hogar
+                    <input type="checkbox" name="servicioHogar" id="servicioHogar">
+                </label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Otros aspectos</legend>
+
+                <label for="progreso4">Progreso del formulario:
+                    <progress min="0" max="100" value="100" id="progreso4"></progress>    
+                    </label>
+                <br>
+                <label for="comunidad"> Comunidad autonoma preferida para trabajar:
+                    <select name="comunidad" id="comunidad">
+                        
+                        <option value="defauld" selected>Seleccione la comunidad autónoma</option>/*valor por defecto*/
+                        <option value="andalucia">Andalucia</option>
+                        <option value="cantabria">Cantabria</option>
+                        <option value="aragon">Aragon</option>
+                        <option value="asturias">Asturias</option>
+                        <option value="canarias">Canarias</option>
+                        <option value="madrid">Madrid</option>
+                        <option value="castillaLeon">Castilla y Leon</option>
+                        <option value="castillaMancha">Castilla la Mancha</option>
+                        <option value="cataluña">Cataluña</option>
+                        <option value="extremadura">Extremadura</option>
+                        <option value="galicia">Galicia</option>
+                        <option value="otros">Otros</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <input class="btn" type="submit" value="Enviar">
+
+        </form>
+
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    margin: 50px auto;
+    width: 60%;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    color: white;
+    background-color: rgb(88, 84, 84);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.grid-contenedor {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+}
+
+.cajaA {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+.cajaB {
+    grid-column: 3 /span 4;
+    grid-row: 1;
+}
+
+.cajaC {
+    grid-column: 1 /span 2;
+    grid-row: 2 /span 3;
+}
+
+.cajaD {
+    grid-column: 3 / span 4;
+    grid-row: 2 / span 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.cajaD div {
+    background-color: rgb(204, 197, 197);
+    color: rgba(0, 0, 0, .5);
+    font-size: 2em;
+}
+
+.cajaE {
+    grid-column: 1/span 2;
+    grid-row: 1;
+}
+
+.cajaF {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.cajaG {
+    grid-column: 2;
+    grid-row: 2;
+
+
+}

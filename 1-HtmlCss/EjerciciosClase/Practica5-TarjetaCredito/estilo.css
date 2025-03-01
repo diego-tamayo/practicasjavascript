@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    margin: 0px auto;
+    width: 80%;
+}
+
+main{
+    color: rgb(197, 34, 34);
+}
+
+.seleccionTarjeta{
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 15px;
+     width: 300px;
+     cursor: pointer;
+}
+
+.seleccionTarjeta img:hover{
+    width: 71px;
+}
+
+.contenedor{
+    margin-top: 30px;
+    /* border: 1px solid black; */
+    width: 50%;
+    box-shadow: 0px 0px 5px gray;
+    padding-left:30px;
+    padding-top: 40px;
+}
+
+.required::after{
+    content: " *";
+    color: red;
+}
+
+.euro{
+    cursor: pointer;
+}
+
+h1{
+    font-size: 1.3em;
+}
+
+h2{
+    font-size: 1em;
+}
+
+label{
+    color: black;
+}
+
+img{
+    width: 70px;
+}
+
+
+.ingresar{
+    background-color: brown;
+    color: white;
+    border-radius: 6px;
+    box-shadow: 0px 0px 6px rgb(67, 66, 66);
+    padding: 0px 10px 0px;
+    margin-bottom: 20px;
+    background: radial-gradient(80px, #690909, #c70b0b);
+    cursor: pointer;
+}
+
+.formImporte{
+    /* display: inline-flex; */
+    display: t;
+    width: 100%;
+   justify-content: space-between;
+}
+

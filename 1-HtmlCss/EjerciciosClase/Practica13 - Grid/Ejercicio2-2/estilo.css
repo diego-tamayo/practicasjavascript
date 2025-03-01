@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    color: white;
+    background-color: rgb(88, 84, 84);
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
+    display: block;
+    align-content: center;
+}
+
+.grid-contenedor {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(3, 100px);
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.cajaA {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+.cajaB {
+    grid-column: 3 /span 4;
+    grid-row: 1;
+}
+
+.cajaC {
+    grid-column: 1 /span 2;
+    grid-row: 2 /span 3;
+}
+
+.cajaD {
+    grid-column: 3 / span 4;
+    grid-row: 2 / span 3;
+}
+
+.cajaE {
+    grid-column: 3 /span 4;
+    grid-row: 2;
+    background-color: rgb(204, 197, 197);
+    margin: 15px 15px 5px 15px;
+    font-size: 2em;
+    color: rgba(0, 0, 0, .5);
+}
+
+.cajaF {
+    grid-column: 3;
+    grid-row: 3;
+    background-color: rgb(204, 197, 197);
+    margin: 0px 5px 20px 15px;
+    font-size: 2em;
+    color: rgba(0, 0, 0, .5);
+}
+
+.cajaG {
+    grid-column: 4;
+    grid-row: 3;
+    background-color: rgb(204, 197, 197);
+    margin: 0px 15px 20px 5px;
+    font-size: 2em;
+    color: rgba(0, 0, 0, .5);
+}

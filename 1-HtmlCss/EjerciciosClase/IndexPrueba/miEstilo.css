@@ -1,0 +1,96 @@
+body {
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+  }
+  
+  h1 {
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5em;
+    color: #11f455;
+  }
+  
+  p {
+    color: aqua;
+    background-color: blue;
+  }
+  
+  /* ul {
+    list-style-type: square;
+  } */
+  
+  li {
+    background-color: yellow;
+  }
+  
+  /* los selectores de tipo identificador -> id llevan # antes del nombre */
+  #uno {
+    background-color: green;
+  }
+  
+  #tres {
+    background-color: salmon;
+  }
+  
+  /* los selectores de tipo clase -> id llevan . antes del nombre */
+  .uno {
+    color: aliceblue;
+  }
+  
+  .dos {
+    background-color: blueviolet;
+  }
+  th{
+    background-color: aquamarine;
+  }
+  .amarillo{
+    background-color: yellow;
+  }
+  #rojo{
+    background-color: rgb(200, 61, 61);
+  }
+  .cuadrado{
+      
+      border-width: 10px;
+      border-style: solid;
+      border-color: #000;
+     
+      /* border: 10px solid #000; */
+      
+      width: 300px;
+      height: 300px;
+      background-color: #11f455;
+      border-radius: 60%;
+      
+  }
+  #circulo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fabada;
+  }
+  #elipse{
+    width: 280px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #4a18c7;
+    text-align: center;
+    color: white;
+  }
+  .prueba{
+    background-color: #15f10d;
+  }
+  table,td{
+    border-width: 8px;
+    border-style: dotted;
+    border-color: #f10d0d;
+    text-align: center;
+   
+  }
+  td{
+    border-width: 4px;
+    border-style: dotted;
+    border-color: #15f10d;
+   
+  }

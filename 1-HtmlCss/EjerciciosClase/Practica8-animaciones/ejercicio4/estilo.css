@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px auto;
+    width: 80%;
+}
+
+header{
+    text-align: center;
+}
+
+.contenedorC {
+    background-color: aqua;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100vh;
+    /* padding: 30px; */
+  
+}
+
+.circuloP,
+.circuloGrande {
+    color: white;
+    font-size: 25px;
+}
+
+ .circuloGrande {
+    grid-row: 1;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    align-content: center;
+    border-radius: 50%;
+    background-color: rgb(30, 255, 0);
+    position: absolute;
+    right: 40%;
+    top: 120px;
+}
+
+.circuloP {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    align-content: center;
+    border-radius: 50%;
+}
+
+
+.circulo1 {
+    grid-row: 2;
+    background-color: green;
+    /* animation: giro 15s infinite;
+    animation-delay: 0s; */
+   
+}
+
+.circulo2 {
+    grid-row: 2;
+    background-color: rgb(133, 229, 8);
+    /* animation: movimiento 15s infinite;
+    animation-delay: 0s; */
+}
+
+.circulo3 {
+    grid-row: 2;
+    background-color: rgb(173, 170, 24);
+    /* animation: color 2s infinite;
+    animation-delay: 0s; */
+}
+
+.circulo4 {
+    grid-row: 2;
+    background-color: rgb(30, 255, 0);
+    /* animation: escalar 15s infinite;
+    animation-delay: 0s; */
+}
+
+/*HOVER*/
+
+.circulo1:hover ~ .circuloGrande {
+    animation: giro 5s infinite;
+    animation-delay: 0s;
+}
+
+.circulo2:hover ~ .circuloGrande {
+    animation: movimiento 5s infinite;
+    animation-delay: 0s;
+}
+
+.circulo3:hover ~ .circuloGrande {
+    animation: colorear 5s infinite;
+    animation-delay: 0s;
+}
+
+.circulo4:hover ~ .circuloGrande {
+    animation: escalar 5s infinite;
+    animation-delay: 0s;
+}
+
+@keyframes giro {
+
+    from {
+        transform: rotate(0deg);
+
+    }
+
+    to {
+        transform: rotate(360deg);
+        /* opacity: 0; */
+    }
+}
+
+@keyframes movimiento {
+    0% {
+        transform: translateX(0)
+    }
+
+    25% {
+        transform: translateX(600px)
+    }
+
+    50% {
+        transform: translateX(600px)translateY(50px);
+    }
+
+    75% {
+        transform: translateX(0)translateY(50px);
+    }
+}
+
+
+@keyframes colorear {
+/* 
+    from {
+        transform: rotate(0deg);
+
+    } */
+
+    to {
+        background-color: aqua;
+    }
+}
+
+@keyframes escalar {
+
+    /* from {
+        transform: rotate(0deg);
+
+    } */
+
+    to {
+       transform: scale(1.2);
+    }
+}

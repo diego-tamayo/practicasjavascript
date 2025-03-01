@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    margin: 0px auto;
+    width: 60%;
+}
+
+.cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 5px gray;
+    padding: 0 10px 0 10px;
+
+}
+
+.lhtml , .lcss{
+   
+    background-color: rgb(159, 145, 145);
+    padding: 10px;
+}
+
+.htmlCss{
+    display: flex;
+    gap: 4px;
+}
+
+.resultado{
+    background-color: gray;
+    border-top: 3px solid black;
+    padding: 10px;
+    /* margin-left: 150px; */
+}
+
+img{
+    width: 60px;
+    height: 50px; 
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 50px;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.colorf{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.inicio{
+    border-radius: 50%;
+    width: 50px;
+    height: auto;
+}
+
+.nosotros , .contacto, .buscador{
+    padding: 5px;
+}
+
+#buscador{
+    border-radius: 10px;
+}

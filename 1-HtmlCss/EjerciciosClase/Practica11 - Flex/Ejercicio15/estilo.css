@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+body{
+    width: 70%;
+    margin: 0 auto;
+    border-top: 2px solid black;
+}
+
+header{
+    background-color: rgb(250, 198, 100);
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+header img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.menu{
+    background-color: rgb(207, 98, 58);
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+.banner img{
+    max-width: 30%;
+    max-height: 30%;
+}
+
+.menu div{
+    padding: 5px;
+    /* background-color: aqua; */
+}
+
+.plomo{
+    background-color: rgb(115, 115, 116);
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+
+.plomo .productos{
+    /* background-color: rgb(182, 176, 176); */
+    display: flex;
+    flex-direction: row;
+}
+
+.plomo .productos div{
+    background-color: white;
+    border: 2px solid gray;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 10px;
+    padding: 5px;
+    width: 25%;
+}
+
+.plomo .productos img{
+    width: 60%;
+    height: 20vh;
+}
+
+.plomo .productos img:nth-of-type(2){
+    width: 30px;
+    height: 30px;
+}
+
+/* .plomo .productos img:nth-child(2){
+    width: 30px;
+    height: 30px;
+} */
+
+.plomo .redes_sociales{
+    /* background-color: rgb(182, 176, 176); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.plomo .redes_sociales img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.pie_de_pagina{
+    background-color: rgb(219, 213, 213);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 0px;      
+    
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;  
+}
+
+.pie_de_pagina a{
+    color: grey;
+    text-decoration: none; 
+}
+
+div:hover{
+
+    border-bottom: 2px solid white;
+    /* color: aqua; */
+}

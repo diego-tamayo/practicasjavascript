@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0px auto;
+    width: 80%;
+    
+}
+
+body h1{
+    text-align: center;
+}
+
+body .grid-contenedor {
+    /* background-color: blue; */
+    background:no-repeat url("img/grid.png");
+    /* background-size: cover; */
+    /* width: auto;
+    /* height: 800px; */
+    aspect-ratio: 4/3;
+
+}
+
+body .grid-contenedor article{
+    padding-top: 10px;
+    text-align: center;
+}

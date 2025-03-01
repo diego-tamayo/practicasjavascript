@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+header {
+    text-align: center;
+}
+
+
+.contenedor {
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 100px;
+
+}
+
+section {
+    background-color: rgb(89, 85, 85);
+    color: white;
+    margin: 5px;
+    text-align: left;
+    padding-left: 5px;
+    border-radius: 5px;
+    align-content: center;
+}
+
+/* 
+.cajaA {
+   
+    background-color: blue;
+}
+
+.cajaB {
+    
+    background-color: brown;
+}
+
+.cajaC {
+   
+    background-color: blueviolet;
+}
+
+.cajaD {
+
+    background-color: rgb(222, 222, 19);
+}
+
+.cajaE {
+   
+    background-color: rgb(190, 87, 156);
+} */
+
+/* .cajaF {
+   
+    background-color: rgb(171, 171, 149);
+} */

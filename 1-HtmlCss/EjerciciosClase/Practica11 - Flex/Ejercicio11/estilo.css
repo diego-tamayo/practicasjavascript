@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+body {
+    width: 65%;
+    margin: auto;
+}
+
+.contenedor {
+
+    background: rgb(175, 172, 172);
+    display: flex;
+    /* justify-content: flex-start; */
+    color: rgb(97, 95, 95);
+    
+    /* justify-content: flex-start; */
+}
+
+.contenedor2{
+    flex-wrap: wrap;
+}
+
+section {
+    /* height: 40px; */
+    /* align-content: center;*/
+    padding: 5px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-style: dotted;
+    padding: 10px;
+}

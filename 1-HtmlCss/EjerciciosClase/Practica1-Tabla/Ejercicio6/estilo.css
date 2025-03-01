@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+body{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+table,td,th{
+    border: 1px inset #666;
+}
+
+/*  
+.fila1{
+    background-color: red;
+}
+
+.fila2{
+    background-color: rgb(138, 214, 37);
+}
+
+.fila3{
+    background-color: rgb(29, 113, 155);
+}
+
+.fila4{
+    background-color: rgb(240, 25, 194);
+}
+
+.fila5{
+    background-color: rgb(68, 61, 61);
+}
+
+.fila6{
+    background-color: rgb(50, 0, 251);
+}
+
+.fila7{
+    background-color: rgb(0, 251, 251);
+} */

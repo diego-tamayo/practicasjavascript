@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0px auto;
+    width: 80%;
+    background-color: rgb(49, 113, 49);
+}
+
+
+.titulo1 , .clases{
+    background-color: rgb(68, 63, 63);
+    padding: 10px;
+}
+
+.titulo1 h2{
+    padding-bottom: 5px;
+}
+
+.text1{
+    background-color: rgb(49, 113, 49);
+    padding: 10px;
+    text-align: justify;
+
+}
+
+/**/
+.content{
+    background-color: rgb(49, 113, 49) ;
+    padding: 5px;
+}
+
+.clases{
+    margin-top: 10px;
+    
+}
+
+.titulo2{
+    color: white;
+    text-align: justify;
+    background-color: rgb(97, 93, 93);
+    padding: 10px;
+    margin: 10px;
+}
+
+.info{
+    background-color: rgb(15, 60, 15);
+    padding: 10px;
+}
+
+.gato{
+    width: 300px;
+    /* aspect-ratio: 2/1; */
+    border: 10px solid rgb(10, 43, 29);
+    border-style: double;
+    background-color: white;
+}
+
+.siames{
+    display: flex;
+    justify-content: space-around;
+}
+
+.siames p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ruso{
+    display: inline-flex;
+}
+
+.ruso p{
+    padding: 0px 5px 0px 50px;
+}
+
+.gator{
+    position: relative;
+    top: 30px;
+}
+
+.noruega{
+    display: inline-flex;
+}
+
+.noruega p{
+    padding: 0px 50px 0px 10px;
+}
+
+.gaton{
+        position: relative;
+        top: 30px;
+    
+}

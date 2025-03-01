@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+header {
+    text-align: center;
+}
+
+
+.contenedor {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 90px 90px;
+
+}
+
+section {
+    color: white;
+    margin: 5px;
+    text-align: left;
+    padding-left: 5px;
+    border-radius: 5px;
+    align-content: center;
+    /* background-color: rgb(89, 85, 85); */
+}
+
+section:nth-child(odd){
+ background-color: black;
+}
+
+section:nth-child(even){
+    background-color: gray;
+}
+
+
+
+/* 
+.caja1 {
+}
+
+.caja2 {
+ 
+}
+
+.caja3 {
+  
+}
+
+.caja4 {
+   
+}
+
+.caja5 {
+  
+}
+
+.caja6 {
+  
+}
+
+.caja7 {
+  
+}
+
+.caja8 {
+  
+}
+
+.caja9 {
+  
+}
+
+.caja10 {
+  
+}
+
+.caja11 {
+  
+}
+
+.caja12 {
+  
+} */

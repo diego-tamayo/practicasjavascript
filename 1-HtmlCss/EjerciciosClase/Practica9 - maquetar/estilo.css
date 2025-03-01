@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body{
+    margin: 0 auto;
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.contenedor0{
+    background-color: rgb(224, 222, 222);
+    padding: 30px;
+}
+
+.cabecera{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    jus
+}
+
+section{
+    border: 2px solid black;
+    margin: 20px;
+    background-color: white;
+}
+
+/*Texto en negrita*/
+.lineas, .colorf {
+    font-weight: bold;
+}
+
+.lineas{
+text-decoration: overline underline;
+}
+
+.mayuscula{
+    font-size: 30px;
+    background-color: rgb(224, 222, 222);
+}
+
+.colorf{
+    background-color: rgb(224, 222, 222);
+    color: white;
+    
+}
+
+/*Subrayado*/
+.subrayado{
+    text-decoration: underline;
+}
+
+/*Tachado*/
+.tachado{
+    text-decoration: line-through;
+}

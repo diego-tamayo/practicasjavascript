@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0px auto;
+    width: 80%;
+    align-items: center;
+    justify-items: center;
+}
+
+.main{
+    border: 2px solid black;
+    box-shadow: 0px 0px 5px grey;
+    background-color: aqua;
+    width: 1200px;
+    height: 550px;
+}
+
+
+.cVerde{
+    background-color: rgb(15, 246, 123);
+    position: absolute;
+    /*Velocidad de Transicion*/
+    /* transition: background 1s linear; */
+
+    /*se le da el nombre de la animacion a ejecutar*/
+    /* animation-duration: 2s;
+    animation-name: movimiento;
+    animation-timing-function: linear; */
+    animation:movimientoCuadrado 15s infinite;
+    animation-delay: 1s; /*retraso animacion*/
+    /*veces que se repite la animacion 1,2,infinite*/
+    /* animation-iteration-count: infinite; */
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.cRosa{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: sticky;
+    background-color: rgb(245, 87, 240);
+    z-index: 0.5;
+    /*Velocidad de Transicion*/
+    /* transition: background 1s linear;  */
+
+    /*se le da el nombre de la animacion a ejecutar*/
+    animation-name:movimientoCuadrado,movimientoCirculo;
+    animation-duration: 15s; /*duracion animacion*/
+    /* animation-timing-function: linear; */
+    animation-delay: 1s;  /*retraso animacion*/
+    animation-iteration-count: infinite;
+
+}
+
+/*Al pasar el mouse en el cuadro*/
+/* .cVerde:hover{
+    background: green;
+}
+
+.cRosa:hover{
+    background: rgb(128, 5, 124);
+} */
+
+/*Al dar Clic en el cuadro*/
+/* .cVerde:active{
+    background-image: url(img/zelda.gif) ;
+    background-size: 200px;
+}
+
+.cRosa:active{
+    background-image: url(img/gracias.png) ;
+    background-size: 200px;
+    background-repeat: round;
+} */
+/* 
+@keyframes estirar{
+    
+    100%{
+        width: 200px;
+    }
+    50%{
+        width: 100px;
+    }
+    0%{
+        width: 50px;
+    } */
+    
+    /* from{
+            top: 0;
+    
+    }
+    to{
+            top:50px
+    } */
+
+
+@keyframes movimientoCuadrado {
+    0%{
+        transform: translateX(0)translateY(0);
+    }
+    25%{
+        /* transform: translateX(1000px)translateY(0); */
+        transform: translateX(0)translateY(300px);
+    }
+    50%{
+        /* transform: translateX(998px)translateY(348px); */
+        transform: translateX(300px)translateY(300px);
+    }
+    75%{
+        transform: translateX(300px)translateY(0);
+    }
+}
+
+@keyframes movimientoCirculo {
+    0%{
+        transform: translateX(0)translateY(0);
+    }
+    25%{
+        /* transform: translateX(1000px)translateY(0); */
+        transform: translateX(0)translateY(146px);
+    }
+    50%{
+        /* transform: translateX(998px)translateY(348px); */
+        transform: translateX(147px)translateY(0px);
+    }
+    75%{
+        transform: translateX(90px)translateY(0);
+    }
+}
