@@ -1,0 +1,29 @@
+
+/*Cambia color Letra Menu*/
+.grid_container .navbar .menu .inicio a{
+    color: rgb(68, 0, 255);
+}
+
+/* MAIN */
+.main {
+    grid-area: main;
+}
+
+.main article h1 {
+    text-align: center;
+}
+
+.main article p {
+    text-align: justify;
+}
+
+/*Filtro de Saturado*/
+.main .imagen-body {
+    filter: saturate(2);
+}
+
+/*Zoom imagen main*/
+.imagen-body:hover{
+    transform: scale(1.03);
+   transition: 0.5s;
+}

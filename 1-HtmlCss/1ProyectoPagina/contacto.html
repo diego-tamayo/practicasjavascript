@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Diego Tamayo</title>
+
+    <link rel="stylesheet" href="style/estiloContacto.css">
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/whatsapp.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <!-- <link rel="stylesheet" href="style/animacionImagenesMain.css"> -->
+    <link rel="stylesheet" href="style/responsibleMedia.css">
+
+    <link rel="icon" href="img/icono_avion.png">
+</head>
+
+<body class="grid_container">
+
+
+    <header class="header" id="inicioP">
+
+        <!-- Div para realizar el efecto ola -->
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
+
+        <a href="index.html"> <img src="img/logo.png" alt="logo" title="home"> </a>
+        <a href="index.html">
+            <h1 title="home"> Diego<b>Blog</b></h1>
+        </a>
+
+    </header>
+
+    <nav class="navbar">
+        <!-- creacion check del menu hamburguesa -->
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="menu-icon"><img src="img/icono-hamburguesa4.png" alt="menu"></i>
+        </label>
+
+        <section class="menu">
+            <div class="btnM inicio"><a href="index.html"><b>INICIO</b></a></div>
+            <div class="btnM blog"><a href="blog.html"><b>BLOG</b></a></div>
+            <div class="btnM entrevista"><a href="entrevistas.html"><b>ENTREVISTAS</b></a></div>
+            <div class="btnM contacto"><a href="contacto.html"><b>CONTACTO</b></a></div>
+        </section>
+    </nav>
+
+    <!-- icono whatsapp -->
+    <div class="whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=34613516367" class="btnWhatsapp" target="_blank">
+            <img class="icon-whatsapp" src="img/whatsapp.png" alt="boton whatsapp">
+        </a>
+    </div>
+
+    <!-- boton modo oscuro -->
+    <div class="botonModoOscuro">
+
+        <label for="dark-mode" class="botonOscuro">
+
+            <input id="dark-mode" type="checkbox" onclick="document.documentElement.classList.toggle('dark-mode')">
+            <img src="img/icono_modo_oscuro.png" alt="boton modo oscuro" title="Dale Clic">
+        </label>
+    </div>
+    <main class="main">
+
+
+        <article>
+            <!-- formulario -->
+            <!-- en el envio de formulario de tiene que elegir que tipo de datos se van a enviar, de tipo texto o de tipo binario (imagenes) -->
+            <form action="https://formsubmit.co/diegotamayo2@gmail.com" method="POST" enctype="multipart/form-data">
+
+                <h1>CONTACTO</h1>
+                <fieldset class="datosBasicos">
+                    <legend>Datos básicos</legend>
+                    <label for="progreso1">Progreso del formulario:
+                        <progress min="0" max="100" value="50" id="progreso1"></progress>
+                    </label>
+
+                    <div class="input-group">
+
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="name" placeholder="Nombre" maxlength="30">
+
+                        <label for="phone">Telefono</label>
+                        <input type="tel" name="phone" id="phone" placeholder="Telefono" maxlength="15">
+
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email" maxlength="30">
+
+                        <label for="message">Mensaje</label>
+                        <textarea name="message" id="message" cols="30" rows="5" placeholder="Escribe tu mensaje..."
+                            maxlength="300"></textarea>
+                    </div>        
+                </fieldset>
+                <fieldset class="datosOpcionales">
+                    <legend>Datos Opcionales</legend>
+                    <label for="progreso1">Progreso del formulario:
+                        <progress min="0" max="100" value="100" id="progreso1"></progress>
+                    </label>
+
+                    <div class="seleccion">
+                        <h5>Idioma de preferencia</h3>
+                            <select name="idioma" id="idioma">
+                                <option value="otra">Otra</option>
+                                <optgroup label="Latinas"></optgroup>
+                                <option value="frances">Frances</option>
+                                <option value="Español" selected>Español</option>/*valor por defecto*/
+                                <option value="portugues">Portugues</option>
+                                <optgroup label="Anglosajón"></optgroup>
+                                <option value="ingles">Inglés</option>
+                                <option value="aleman">Alemán</option>
+                            </select>
+                    </div>
+                    <div class="cargarArchivo">
+                        <label for="archivo">¿Quieres compartir algo conmigo?</label>
+                        <input type="file" name="archivo" id="archivo" title="Subir Archivo"
+                            accept=".jpg,.jpeg,.png,.txt,.pdf">
+                    </div>
+                    <div>
+                        <label for="contraseña">¡Que no vean tu secretito! XD </label>
+                        <input type="password" name="contraseña" id="contraseña" title="No seas Timid@"
+                            placeholder="No seas Timid@" maxlength="300">
+                    </div>
+                    <div class="tipoInteres">
+                        <h5>Tipo de interes de contacto</h3>
+                            <input type="radio" name="status" id="status"
+                                value="colaboraciones">Colaboraciones</input><br>
+                            <input type="radio" name="status" id="status" value="queja">Queja</input><br>
+                            <input type="radio" name="status" id="status" value="sugerencia">Sugerencia</input><br>
+                            <input type="radio" name="status" id="status" value="Otro" checked>Otros</input><br>
+                    </div>
+                </fieldset>
+
+                <div class="form-txt">
+                    <div class="gatoComputador"><img src="img/gatokitty.png" alt="imagen gato computador"
+                            title="Expresate"></div>
+                    <a href="gracias.html">
+                        <h5 class="legal">Tener en cuenta</h5>
+                    </a>
+                    <a class="legal" href="politicasCookies.html">Politica de Cookies</a>
+                    <a class="legal" href="politicasPrivacidad.html">Politica de privacidad</a>
+                    <a class="legal" href="TerminosYcondiciones.html">Terminos y condiciones</a>
+                    <br>
+                    <input class="btn" type="submit" value="Enviar">
+
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/1ProyectoPagina/gracias.html">
+                    <input type="hidden" name="_captcha" value="false">
+
+                </div>
+
+                </div>
+            </form>
+        </article>
+
+      
+    </main>
+
+
+
+    <footer class="footer">
+
+        <section class="contacto">
+
+            <a href="politicasCookies.html">Politicas de Cookies</a>
+            <a href="TerminosYcondiciones.html">Términos y condiciones</a>
+            <a href="politicasPrivacidad.html">Politicas de Privacidad</a>
+            <a href="https://nexoscompany.es/" target="_blank">Otros Proyectos</a>
+        </section>
+
+        <section class="copyright">
+            <p>Copyright 2024. Created by Diego Tamayo Powered by VisualStudioCode</p>
+        </section>
+
+    </footer>
+
+</body>
+
+</html>

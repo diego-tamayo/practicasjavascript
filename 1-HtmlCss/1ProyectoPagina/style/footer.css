@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    grid-area: footer;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .contacto a {
+    color: white;
+    /* font-size: 12px; */
+}
+
+.footer .contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .copyright {
+    text-align: center;
+}
+
+.footer .contacto a:hover {
+    color: rgb(32, 33, 35);
+}

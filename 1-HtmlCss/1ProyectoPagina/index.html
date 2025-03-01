@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Diego Tamayo</title>
+
+    <link rel="stylesheet" href="style/estiloIndex.css">
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/whatsapp.css">
+    <link rel="stylesheet" href="style/botonSubir.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/animacionImagenesMain.css">
+    <link rel="stylesheet" href="style/responsibleMedia.css">
+
+    <link rel="icon" href="img/icono_avion.png">
+</head>
+
+<body class="grid_container">
+
+
+    <header class="header" id="inicioP">
+
+        <!-- Div para realizar el efecto ola -->
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
+
+        <a href="index.html"> <img src="img/logo.png" alt="logo" title="home"> </a>
+        <a href="index.html">
+            <h1 title="home"> Diego<b>Blog</b></h1>
+        </a>
+
+    </header>
+
+
+    <nav class="navbar">
+        <!-- creacion check del menu hamburguesa -->
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="menu-icon"><img src="img/icono-hamburguesa4.png" alt="menu"></i>
+        </label>
+
+        <section class="menu">
+            <div class="btnM inicio"><a href="index.html"><b>INICIO</b></a></div>
+            <div class="btnM blog"><a href="blog.html"><b>BLOG</b></a></div>
+            <div class="btnM entrevista"><a href="entrevistas.html"><b>ENTREVISTAS</b></a></div>
+            <div class="btnM contacto"><a href="contacto.html"><b>CONTACTO</b></a></div>
+        </section>
+    </nav>
+
+    <!-- icono boton Subir -->
+    <div class="btnSubir">
+        <a href="#inicioP" class="Esubir">
+            <img class="imagenBtnSubir" src="img/subir.png" alt="boton subir" title="Subir inicio">
+        </a>
+    </div>
+
+    <!-- icono whatsapp -->
+    <div class="whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=34613516367" class="btnWhatsapp" target="_blank">
+            <img class="icon-whatsapp" src="img/whatsapp.png" alt="boton whatsapp">
+        </a>
+
+    </div>
+
+    <!-- boton modo oscuro -->
+    <div class="botonModoOscuro">
+
+        <label for="dark-mode" class="botonOscuro">
+
+            <input id="dark-mode" type="checkbox" onclick="document.documentElement.classList.toggle('dark-mode')">
+            <img src="img/icono_modo_oscuro.png" alt="boton modo oscuro" title="Dale Clic">
+        </label>
+    </div>
+
+    <main class="main">
+
+        <article>
+            <br>
+            <h1>BIENVENIDOS A MI BLOG</h1>
+            <br>
+            <br>
+            <h3>Sobre mí y mis aventuras por el mundo 🌍</h3>
+            <br>
+            <p>¡Hola! Soy Diego Fernando, un apasionado de los viajes, la cultura y las nuevas experiencias. Nací en
+                Colombia, un país lleno de magia, paisajes diversos y gente cálida. Desde pequeño siempre soñé con
+                recorrer el mundo, y hoy puedo decir que he tenido la fortuna de visitar lugares que han transformado mi
+                vida. En esta sección quiero compartir contigo mi historia y algunas de las aventuras que he vivido
+                explorando Colombia, Australia, Países Bajos y España.</p>
+            <br>
+            <img class="imagen-body imagenFiltro" src="img/viaje-en-hd.jpg" alt="avion volando por la tierra"
+                title="Bienvenido">
+            <br>
+            <div>
+                <progress></progress>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <a href="blog.html#lagoCalima">
+                <h3>Colombia: Raíces de color y tradición 🌄</h3>
+            </a>
+            <br>
+            <p>Mi historia comienza en Colombia, un país donde la naturaleza y las tradiciones convergen en perfecta
+                armonía. Uno de mis lugares favoritos es el Eje Cafetero, donde he caminado entre plantaciones de café
+                mientras disfruto del aroma más auténtico del mundo. Cada sorbo de café en esa región es una conexión
+                directa con nuestras raíces.</p>
+            <br>
+            <p>En Cartagena, me enamoré de las calles empedradas del centro histórico, con sus casas coloniales llenas
+                de flores y balcones coloridos. Una tarde, mientras paseaba por el muelle, conocí a un pescador que me
+                llevó en su bote a las Islas del Rosario. Nunca olvidaré la transparencia del agua ni los atardeceres
+                que parecen pintados con acuarela.</p>
+            <br>
+            <p>Por supuesto, no podía faltar la aventura en el Amazonas. Allí, entre caminatas en la selva y paseos en
+                canoa, aprendí de la sabiduría de las comunidades indígenas. Dormir bajo un cielo estrellado, rodeado de
+                los sonidos de la naturaleza, fue una de las experiencias más impactantes de mi vida.</p>
+            <br>
+            <a href="blog.html#lagoCalima">
+                <img class="imagen-body" src="img/colombia.webp" alt="fotografia vista parte de colombia"
+                    title="Colombia">
+            </a>
+            <br>
+            <div>
+                <label for="calificacion">❤️70%</label>
+                <progress min="0" max="100" value="70" id="calificacion"></progress>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <a href="blog.html#ciudadPerth">
+                <h3>Australia: Donde el desierto se encuentra con el océano 🦘</h3>
+            </a>
+            <br>
+            <p>Mi primera experiencia fuera de América Latina fue en Australia, un continente que siempre me había
+                intrigado. Cuando llegué a Sídney, quedé maravillado con la Ópera de Sídney y el icónico puente Harbour
+                Bridge. La ciudad vibra con energía, combinando lo moderno con lo natural.</p>
+            <br>
+            <p>Mi viaje no estaría completo sin explorar la Gran Barrera de Coral. Fue como entrar en un universo
+                paralelo lleno de colores y vida submarina. Bucear allí me hizo comprender lo frágil y hermosa que es la
+                naturaleza.</p>
+            <br>
+            <p>Otra de mis aventuras más memorables fue un recorrido por el desierto del Outback. En medio de paisajes
+                rojos infinitos, visité el Uluru, una roca sagrada para los pueblos aborígenes. Allí aprendí sobre su
+                cultura y la conexión espiritual que tienen con la tierra.</p>
+            <br>
+            <a href="blog.html#ciudadPerth"><img class="imagen-body" src="img/australia.webp"
+                    alt="vista ciudad de sidney Australia" title="Australia">
+            </a>
+            <div>
+                <label for="calificacion">❤️90%</label>
+                <progress min="0" max="100" value="90" id="calificacion"></progress>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <a href="blog.html#ciudadAmsterdam">
+                <h3>Países Bajos: Un cuento entre tulipanes y molinos 🌷</h3>
+            </a>
+            <br>
+            <p>p>Viajar a Países Bajos fue como entrar en un cuadro impresionista. Mis días en Ámsterdam los pasé
+                recorriendo canales, admirando la arquitectura de las casas y visitando museos como el de Van Gogh.
+                Pedalear por la ciudad me hizo sentir parte de la vida cotidiana de los neerlandeses.</p>
+            <br>
+            <p>En primavera, fui a Keukenhof, el parque de tulipanes más famoso del mundo. Los campos se extienden hasta
+                donde alcanza la vista, formando alfombras de colores que te dejan sin aliento.</p>
+            <br>
+            <p>Mi parte favorita del viaje fue explorar Kinderdijk, un lugar icónico lleno de molinos de viento. Alquilé
+                una bicicleta y recorrí los senderos mientras el sol se reflejaba en los canales. La tranquilidad del
+                lugar es algo que jamás olvidaré.</p>
+            <br>
+            <a href="blog.html#ciudadAmsterdam"><img class="imagen-body" src="img/paisesbajos.webp"
+                    alt="ciudad de holanda mostrando un rio" title="Paises Bajos">
+            </a>
+            <div>
+                <label for="calificacion">❤️80%</label>
+                <progress min="0" max="100" value="80" id="calificacion"></progress>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <a href="blog.html#ciudadValladolid">
+                <h3>España: Entre historia, arte y sabores</h3>
+            </a>
+            <br>
+            <p>España se ha convertido en mi segundo hogar. Desde mi llegada, quedé encantado con su diversidad cultural
+                y su gente. Mi primera parada fue Madrid, donde disfruté de tardes en el Parque del Retiro y recorrí el
+                Museo del Prado para admirar las obras maestras de Velázquez y Goya.</p>
+            <br>
+            <p>En Barcelona, me perdí en la magia de la arquitectura de Gaudí. La Sagrada Familia y el Parque Güell me
+                hicieron sentir que estaba en un lugar salido de un sueño.</p>
+            <br>
+            <p>No puedo dejar de mencionar mi viaje al sur, a Granada. La Alhambra y sus jardines me transportaron a
+                otra época, mientras que las callejuelas del Albaicín me recordaron la mezcla de culturas que define a
+                España.</p>
+            <br>
+            <p>Por último, mi corazón pertenece a Valladolid, donde vivo actualmente. Es una ciudad con encanto
+                histórico, pero con la tranquilidad de un hogar. Aquí, cada rincón tiene una historia, y cada tapa que
+                disfruto en sus bares me conecta más con la cultura española.</p>
+            <br>
+            <a href="blog.html#ciudadValladolid"><img class="imagen-body" src="img/españa.webp"
+                    alt="ciudad de Barcelona España" title="España">
+            </a>
+            <div>
+                <label for="calificacion">❤️70%</label>
+                <progress min="0" max="100" value="70" id="calificacion"></progress>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <h3>Reflexiones sobre mis viajes y proyectos</h3>
+            <br>
+            <p>Viajar no es solo cambiar de lugar; es cambiar de perspectiva. Cada destino me ha enseñado algo único:
+                desde la calidez de las personas en Colombia hasta la inmensidad del océano en Australia; desde los
+                paisajes pintorescos de Países Bajos hasta la riqueza histórica de España.</p>
+            <br>
+            <p>Hoy, mi pasión por los viajes sigue más viva que nunca, y espero seguir sumando aventuras a mi lista. A
+                través de esta página, quiero inspirarte a explorar el mundo y descubrir las maravillas que están
+                esperándote, cerca o lejos.</p>
+            <br>
+            <p>¡Gracias por acompañarme en esta travesía! Espero que disfrutes tanto de mis historias como yo al
+                vivirlas.</p><br>
+            <p>Los invito a visitar <strong>mi otra pagina web</strong> de noticias del mundo, espero que me apoyes en
+                mis proyectos.
+                <a href="https://nexoscompany.es/" title="NexosCompany" target="_blank">https://nexoscompany.es/</a>
+            </p>
+            <br>
+            <br>
+
+            <div class="donacion">
+                <form action="https://www.paypal.com/donate" method="post" target="_blank">
+                    <input type="hidden" name="hosted_button_id" value="S865FHHMXUV5L" />
+                    <input type="image" src="https://www.paypalobjects.com/es_ES/ES/i/btn/btn_donateCC_LG.gif"
+                        border="0" name="submit" title="PayPal - The safer, easier way to pay online!"
+                        alt="Botón Donar con PayPal" />
+                    <img alt="boton paypal para donaciones" border="0"
+                        src="https://www.paypal.com/es_ES/i/scr/pixel.gif" width="1" height="1" />
+                </form>
+            </div>
+        </article>
+
+    </main>
+
+    <footer class="footer">
+
+        <section class="contacto">
+
+            <a href="politicasCookies.html">Politicas de Cookies</a>
+            <a href="TerminosYcondiciones.html">Términos y condiciones</a>
+            <a href="politicasPrivacidad.html">Politicas de Privacidad</a>
+            <a href="https://nexoscompany.es/" target="_blank">Otros Proyectos</a>
+        </section>
+
+        <section class="copyright">
+            <p>Copyright 2024. Created by Diego Tamayo Powered by VisualStudioCode</p>
+        </section>
+
+    </footer>
+
+</body>
+
+</html>

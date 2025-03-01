@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*Color barra navegador */
+    scrollbar-color: red lightblue;
+    /* text-decoration: none; */
+}
+
+body {
+    margin: 0px auto;
+    width: 80%;
+    /* Centrar pagina*/
+
+}
+
+.grid_container>* {
+    padding: 10px;
+
+}
+
+.grid_container {
+    display: grid;
+
+}
+
+
+/* boton modo oscuro */
+.grid_container .botonModoOscuro {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+}
+
+.grid_container .botonModoOscuro img {
+    width: 30px;
+
+}
+
+#dark-mode {
+    display: none;
+}
+
+.grid_container .botonModoOscuro img:hover {
+    width: 40px;
+    transition: 0.5s;
+}
+
+/*Comando javascrip para modo oscuro*/
+html.dark-mode {
+    background-color: rgb(25, 26, 26);
+    color: white;
+    
+}
+
+/*fin boton modo oscuro*/
+
+/*Detecta si el usuario tiene el navegador en modo DARK u Oscuro*/
+ /* @media(prefers-color-scheme:dark){
+
+    body{
+        background-color: rgb(56, 54, 54);
+        color: white;
+
+        &::after{
+            content: "Efecto Dark Mode";
+        }
+    }
+} */

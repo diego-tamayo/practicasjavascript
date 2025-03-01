@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Diego Tamayo</title>
+
+    <link rel="stylesheet" href="style/estiloBlog.css">
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/whatsapp.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/animacionImagenesMain.css">
+    <link rel="stylesheet" href="style/responsibleMedia.css">
+    <link rel="stylesheet" href="style/botonSubir.css">
+
+    <link rel="icon" href="img/icono_avion.png">
+</head>
+
+<body class="grid_container">
+
+
+
+    <header class="header" id="inicioP">
+
+        <!-- Div para realizar el efecto ola -->
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
+
+        <a href="index.html"> <img src="img/logo.png" alt="logo" title="home"> </a>
+        <a href="index.html">
+            <h1 title="home"> Diego<b>Blog</b></h1>
+        </a>
+
+    </header>
+
+    <nav class="navbar">
+        <!-- creacion check del menu hamburguesa -->
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="menu-icon"><img src="img/icono-hamburguesa4.png" alt="menu"></i>
+        </label>
+
+        <section class="menu">
+            <div class="btnM inicio"><a href="index.html"><b>INICIO</b></a></div>
+            <div class="btnM blog"><a href="blog.html"><b>BLOG</b></a></div>
+            <div class="btnM entrevista"><a href="entrevistas.html"><b>ENTREVISTAS</b></a></div>
+            <div class="btnM contacto"><a href="contacto.html"><b>CONTACTO</b></a></div>
+        </section>
+    </nav>
+
+    <!-- icono boton Subir -->
+    <div class="btnSubir">
+        <a href="#inicioP" class="Esubir">
+            <img class="imagenBtnSubir" src="img/subir.png" alt="boton subir" title="Subir inicio">
+        </a>
+    </div>
+
+    <!-- icono whatsapp -->
+    <div class="whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=34613516367" class="btnWhatsapp" target="_blank">
+            <img class="icon-whatsapp" src="img/whatsapp.png" alt="">
+        </a>
+    </div>
+
+    <!-- boton modo oscuro -->
+    <div class="botonModoOscuro">
+
+        <label for="dark-mode" class="botonOscuro">
+
+            <input id="dark-mode" type="checkbox" onclick="document.documentElement.classList.toggle('dark-mode')">
+            <img src="img/icono_modo_oscuro.png" alt="boton modo oscuro" title="Dale Clic">
+        </label>
+
+    </div>
+
+    <main class="main">
+
+
+        <article>
+            <h1>RECUERDOS DE MIS VIAJES</h1>
+            <br>
+            <br>
+            <div class="progreso">
+                <img src="img/zelda.gif" alt="imagen Link" title="Link Zelda">
+                <div>
+                    <h3>Mi progreso</h3>
+                    <label for="vida">🩸</label>
+                    <progress min="0" max="100" value="63" id="vida"></progress>
+                    <label for="fuerza">⚔️</label>
+                    <progress min="0" max="100" value="90" id="fuerza"></progress>
+                    <label for="energia">⚡</label>
+                    <progress min="0" max="100" value="50" id="energia"></progress>
+                    <label for="magia">🪄</label>
+                    <progress min="0" max="100" value="1" id="magia"></progress>
+                </div>
+            </div>
+            <br>
+            <h2>Mis aventuras alrededor del mundo: Lugares que dejaron huella</h2>
+            <br>
+            <p>Hola, soy Diego Fernando Tamayo Henao, un soñador incansable con el corazón puesto en cada rincón del
+                mundo que visito. Los viajes no solo me permiten explorar paisajes, sino también conectar con culturas y
+                descubrir la esencia de cada lugar. En este artículo, quiero contarte sobre cuatro destinos que han
+                marcado mi vida: el Lago Calima en Colombia, Perth en Australia, Ámsterdam en Países Bajos y mi hogar
+                actual, Valladolid en España.</p>
+            <br>
+            <br>
+            <h3>Les comparto mis primeros viajes, empezando por mi pais natal 🌍</h3>
+            <br>
+            <h4 id="lagoCalima">Lago Calima, Colombia: El corazón del viento y el agua</h4>
+            <br>
+            <p><strong>El Lago Calima</strong>, en el departamento del Valle del Cauca, es un lugar que combina la
+                serenidad de la
+                naturaleza con la emoción de los deportes acuáticos. Llegar allí fue como entrar en un mundo donde el
+                tiempo se detiene.
+                <br><br>
+                En mi primera visita, decidí probar el windsurf, ya que el lago es famoso por tener uno de los vientos
+                más fuertes de América Latina. Aunque al principio me caía más veces de las que me sostenía, al final
+                logré dominar la tabla. ¡Fue una sensación de libertad única!
+                <br><br>
+                Pero no todo fue adrenalina. Una tarde, alquilé una pequeña cabaña junto al lago y disfruté de una
+                puesta de sol que tiñó el agua de tonos anaranjados y rosados. Esa noche, bajo un cielo estrellado,
+                compartí historias con lugareños que me hablaron de la energía especial del lugar y su importancia para
+                las comunidades cercanas.
+            </p>
+            <br><br>
+            <div class="fotos imagenesLago">
+                <img class="imagen-body" src="img/calima/lago1.jpg" alt="imagen lago calima vista lateral">
+                <img class="imagen-body" src="img/calima/lago2.jpg" alt="imagen lago calima vista frontal">
+                <img class="imagen-body" src="img/calima/lago3.jpg" alt="Diego y harold posando para una selfie">
+                <img class="imagen-body" src="img/calima/lago4.jpg" alt="manejando de nuevo las motos">
+            </div>
+            <br>
+            <hr>
+            <br><br>
+            <h3 id="ciudadPerth">Perth, Australia: Donde la modernidad abraza la naturaleza</h3>
+            <br>
+            <p> <strong>Perth, en la costa oeste de Australia,</strong> es una ciudad vibrante y acogedora, rodeada de
+                playas de arena
+                blanca y un entorno natural impresionante. Mi primer día allí lo dediqué a explorar Kings Park, uno de
+                los parques urbanos más grandes del mundo. Desde su mirador, disfruté de una vista panorámica de la
+                ciudad y del río Swan, que serpentea entre los rascacielos.
+                <br><br>
+                Una de mis experiencias más memorables en Perth fue visitar la isla Rottnest, famosa por ser el hogar de
+                los quokkas, unos marsupiales pequeños y amigables que siempre parecen estar sonriendo. Alquilé una
+                bicicleta para recorrer la isla, y cada rincón era más hermoso que el anterior, con aguas cristalinas y
+                calas escondidas.
+                <br><br>
+                Por las noches, Perth cobra vida con su oferta gastronómica. Probé pescado fresco en un restaurante
+                junto al puerto de Fremantle mientras admiraba el atardecer. La mezcla de sabores locales y el ambiente
+                relajado de la ciudad me hicieron sentir como en casa.
+            </p>
+            <br><br><br>
+            <div class="fotos perth">
+                <img class="imagen-body" src="img/perth/perth5.jpg" alt="gran imagen del nombre de Perth">
+                <img class="imagen-body" src="img/perth/perth1.jpg" alt="vista de una ventana hacia una piscina">
+                <img class="imagen-body" src="img/perth/perth2.jpg" alt="tres personas tomando cerveza">
+                <img class="imagen-body" src="img/perth/perth3.jpg" alt="5 personas cenando en un restaurante">
+                <img class="imagen-body" src="img/perth/perth6.jpg" alt="grupo compañeros clases tomando una selfie">
+                <img class="imagen-body" src="img/perth/perth7.jpg" alt="grupo de amigos en la playa">
+                <img class="imagen-body" src="img/perth/perth8.jpg" alt="uestra el rio que atravisa Perth">
+                <img class="imagen-body" src="img/perth/perth9.jpg" alt="vista apartamento con piscina">
+            </div>
+            <br>
+            <hr>
+            <br><br>
+            <h3 id="ciudadAmsterdam">Ámsterdam, Países Bajos: Canales, bicicletas y arte 🚴</h3>
+            <br>
+            <p>Llegar a Ámsterdam fue como entrar en un cuento. La ciudad, con sus canales, casas estrechas y bicicletas
+                por todas partes, tiene un encanto difícil de describir. Mi primera parada fue un paseo en bote por los
+                canales, desde donde pude apreciar la arquitectura histórica y la vida cotidiana de los neerlandeses.
+                <br><br>
+                Uno de los momentos más emocionantes fue visitar el Rijksmuseum, hogar de obras maestras como "La ronda
+                de noche" de Rembrandt. Cada cuadro parecía contar una historia que se conectaba con la ciudad misma.
+                <br><br>
+                También exploré el famoso barrio de Jordaan, donde me perdí en sus callejones llenos de cafés y pequeñas
+                tiendas. En un mercado local, probé stroopwafels recién hechos, que rápidamente se convirtieron en mi
+                snack favorito.
+                <br><br>
+                Una tarde, alquilé una bicicleta y pedaleé hasta el Vondelpark, donde me senté a leer mientras los patos
+                nadaban en el estanque cercano. Ámsterdam me enseñó a disfrutar de la simplicidad y a valorar los
+                pequeños momentos.
+            </p>
+            <br><br>
+            <div class="fotos amsterdam">
+                <img class="imagen-body" src="img/amsterdam/amsterdam2.jpg" alt="selfi con bicicletas">
+                <img class="imagen-body" src="img/amsterdam/amsterdam1.jpg" alt="parqueadero con flores adelante">
+                <img class="imagen-body" src="img/amsterdam/amsterdam3.jpg" alt="vista plaza de amsterdam">
+                <img class="imagen-body" src="img/amsterdam/amsterdam4.jpg" alt="edificios de la ciudad">
+                <img class="imagen-body" src="img/amsterdam/amsterdam5.jpg" alt="tienda con motos parquedas">
+                <img class="imagen-body" src="img/amsterdam/amsterdam6.jpg" alt="edificio con personas pasando">
+                <img class="imagen-body" src="img/amsterdam/amsterdam7.jpg" alt="adificio antiguo de la ciudad">
+            </div>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <h3 id="ciudadValladolid">Valladolid, España: Mi rincón de historia y tranquilidad 🏰</h3>
+            <br>
+            <p>Valladolid es mi hogar actual y uno de los lugares más especiales que he conocido. Esta ciudad, situada
+                en el corazón de Castilla y León, combina historia, cultura y una calma que me ha conquistado.
+                <br><br>
+                Mis días aquí suelen empezar con un café en la Plaza Mayor, rodeado de edificios históricos que cuentan
+                la historia de la ciudad. Valladolid fue cuna de grandes escritores como Miguel de Cervantes, y esa
+                riqueza cultural se respira en cada rincón.
+                <br><br>
+                Uno de mis lugares favoritos es el Campo Grande, un parque lleno de árboles centenarios, fuentes y pavos
+                reales que deambulan libremente. A menudo, llevo un libro y paso horas disfrutando de la paz del lugar.
+                <br><br>
+                La ciudad también es famosa por su gastronomía. Participar en una ruta de tapas por sus bares es una
+                experiencia que recomiendo a todo el mundo. Cada plato, desde la morcilla hasta el lechazo, es un regalo
+                para el paladar.
+            </p>
+            <br><br>
+            <div class="fotos valladolid">
+                <img class="imagen-body" src="img/valladolid/valladolid1.HEIC"
+                    alt="grupo de amigos de la iglesia selfie">
+                <img class="imagen-body" src="img/valladolid/valladolid2.HEIC" alt="personas posando por un cumpleaños">
+                <img class="imagen-body" src="img/valladolid/valladolid3.HEIC" alt="persona viendo el lago esgueva">
+                <img class="imagen-body" src="img/valladolid/valladolid4.HEIC"
+                    alt="personas sentadas escuchando pastor de iglesia">
+                <img class="imagen-body" src="img/valladolid/valladolid5.jpg"
+                    alt="grupos de personas posando para una foto en plaza mayor">
+                <img class="imagen-body" src="img/valladolid/valladolid6.jpg"
+                    alt="grupo de personas reunidas en un comedor">
+            </div>
+            <br>
+            <hr>
+            <br>
+            <h3>Reflexiones sobre mis aventuras</h3>
+            <br>
+            <p>Cada uno de estos lugares me ha dejado una marca imborrable. El Lago Calima me enseñó a encontrar la
+                conexión con la naturaleza y la adrenalina; Perth me mostró la perfecta armonía entre ciudad y entorno;
+                Ámsterdam me hizo valorar la belleza de la vida simple; y Valladolid me ha dado un hogar lleno de
+                historia y sabor.
+                <br><br>
+                Espero que estas historias te inspiren a explorar, soñar y crear tus propias aventuras. ¡El mundo está
+                lleno de lugares increíbles esperando ser descubiertos!
+            </p>
+            <br>
+            <p>¡Gracias por acompañarme en esta travesía! Espero que disfrutes tanto de mis historias como yo al
+                vivirlas.</p>
+            <br>
+            <br>
+
+            <div class="donacion">
+                <form action="https://www.paypal.com/donate" method="post" target="_blank">
+                    <input type="hidden" name="hosted_button_id" value="S865FHHMXUV5L" />
+                    <input type="image" src="https://www.paypalobjects.com/es_ES/ES/i/btn/btn_donateCC_LG.gif"
+                        border="0" name="submit" title="PayPal - The safer, easier way to pay online!"
+                        alt="Botón Donar con PayPal" />
+                    <img alt="boton paypal donaciones" border="0" src="https://www.paypal.com/es_ES/i/scr/pixel.gif"
+                        width="1" height="1" />
+                </form>
+            </div>
+        </article>
+
+    </main>
+
+    <footer class="footer">
+
+        <section class="contacto">
+
+            <a href="politicasCookies.html">Politicas de Cookies</a>
+            <a href="TerminosYcondiciones.html">Términos y condiciones</a>
+            <a href="politicasPrivacidad.html">Politicas de Privacidad</a>
+            <a href="https://nexoscompany.es/" target="_blank">Otros Proyectos</a>
+        </section>
+
+        <section class="copyright">
+            <p>Copyright 2024. Created by Diego Tamayo Powered by VisualStudioCode</p>
+        </section>
+
+    </footer>
+
+</body>
+
+</html>

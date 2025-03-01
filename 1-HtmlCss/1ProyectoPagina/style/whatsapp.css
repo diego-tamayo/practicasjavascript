@@ -1,0 +1,22 @@
+/*Icono Whatsapp*/
+.whatsapp img {
+    width: 4vw;
+    height: 4vw;
+}
+
+.whatsapp {
+    position: fixed;
+    z-index: 1;
+    bottom: 90px;
+    right: 25px;
+    border-radius: 50px;
+
+}
+
+.whatsapp img:hover {
+    filter: saturate(3);
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+/* Fin Icono Whatsapp*/
