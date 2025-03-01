@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Prueba Botones</h1>
+    <form action="" method="get">
+        <input type="text" name="text1" id="text1">
+
+        <!-- Realiza una accion javaScript -->
+        <input type="button" value="input" onclick="mostrar()"> 
+        <button name="text1" >Enviar</button>
+        <input type="submit" value="Envio Submit">
+    </form >
+
+    <p id="mensaje"></p>
+
+
+    <script>
+        function mostrar() {
+            let exp ='1 + 1'
+            const text1=document.getElementById('text1').value;
+            const mensaje=document.getElementById('mensaje');
+            mensaje.innerText= text1;
+            mensaje.innerText=eval(exp)
+        }
+    </script>
+</body>
+</html>

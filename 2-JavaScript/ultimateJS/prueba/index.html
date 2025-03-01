@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios JavaScript</title>
+</head>
+
+<body>
+
+    <div>
+        hola Mundo
+    </div>
+
+
+    <script class="Uno">
+
+        let num=52;
+        let num2=2;
+
+          function divicion(num, num2){
+            return num%num2;
+          }
+
+        alert (divicion(50,5))
+        vector A, B
+        suma dos array y cual es par
+
+        let edad1 = []
+        edad1 = [4, 5, 7, 8]
+        let edad2 = [5, 6, 7, 1]
+        acumulador = 0;
+        let rtdo = [];
+        acumPar = 0;
+        //Resto
+        function resto(dividendo, divisor) {
+            return dividendo % divisor;
+        }
+
+        //Es Par (Boolean)
+        function esPar(num) {
+            resp = false;
+            if (resto(num, 2) == 0) {
+                resp=true;
+                return resp
+            }
+        }
+
+        for (let index = 0; index < edad1.length; index++) {
+            let resultado = edad1[index] + edad2[index];
+            rtdo[index] = resultado;
+            acumulador = acumulador + resultado;
+            console.log(`El resultado de la suma de edaddes es ${acumulador}`);
+            // if (respuesta == 0) {
+            //     acumuladorPares =acumuladorPares + edad1[index] + edad2[index];
+            // }
+            // console.log(acumuladorPares);
+        }
+        for (let i = 0; i < edad1.length; i++) {
+            if (esPar(edad1[i])) {
+                acumPar = acumPar + edad1[i];
+            }
+            if (esPar(edad2[i])) {
+                acumPar = acumPar + edad2[i];
+            }
+        }
+
+    </script>
+
+
+</body>
+
+</html>
